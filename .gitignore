@@ -1,0 +1,26 @@
+# Raw and processed datasets
+data/raw/
+data/processed/
+data/external/
+
+# Large JSON files
+*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# API keys and secrets
+*.key
+secrets.*
