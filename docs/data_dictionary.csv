@@ -1,0 +1,18 @@
+field_name,source,description,data_type,planned_use
+business_id,Yelp Open Dataset,Unique identifier for each business,string,Join business and review data
+name,Yelp Open Dataset,Restaurant business name,string,Location identification
+address,Yelp Open Dataset,Street address,string,Location reference
+city,Yelp Open Dataset,City of restaurant,string,Geographic analysis
+state,Yelp Open Dataset,State abbreviation,string,Filter to United States only
+postal_code,Yelp Open Dataset,Postal code,string,Future geographic joins
+latitude,Yelp Open Dataset,Restaurant latitude,float,Mapping and geographic analysis
+longitude,Yelp Open Dataset,Restaurant longitude,float,Mapping and geographic analysis
+stars,Yelp Open Dataset,Average customer star rating,float,Reputation indicator
+review_count,Yelp Open Dataset,Number of customer reviews,integer,Reputation strength indicator
+categories,Yelp Open Dataset,Business category labels,string,Filter to restaurants only
+is_open,Yelp Open Dataset,Whether business is currently listed as open,integer,Filter or risk indicator
+review_id,Yelp Open Dataset,Unique identifier for each review,string,Review analysis
+text,Yelp Open Dataset,Written customer review text,string,Sentiment analysis
+date,Yelp Open Dataset,Date review was posted,date,Time-based analysis
+sentiment_score,Derived Variable,Model-generated customer sentiment score,float,Risk and opportunity modeling
+risk_category,Derived Variable,Assigned restaurant risk group,string,Final business output
