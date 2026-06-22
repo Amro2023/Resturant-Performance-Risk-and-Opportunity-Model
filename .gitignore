@@ -1,26 +1,32 @@
-# Raw and processed datasets
-data/raw/
-data/processed/
-data/external/
-
-# Large JSON files
-*.json
-
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks and checkpoints
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Source scripts not needed for dashboard deployment
+src/
+
+# Raw/external/large data
+data/raw/
+data/external/
+
+# Outputs not needed for dashboard deployment
+outputs/
+
+# Mac/system files
+.DS_Store
 
 # Environment files
 .env
 .venv/
 venv/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Mac system files
-.DS_Store
-
-# API keys and secrets
-*.key
-secrets.*
+# Logs/temp files
+*.log
+*.tmp
